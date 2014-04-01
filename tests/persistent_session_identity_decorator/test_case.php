@@ -25,7 +25,7 @@
  * @subpackage Tests
  */
 
-require_once 'PersistentObject/tests/persistent_session/test_case.php';
+require_once __DIR__.'/../persistent_session/test_case.php';
 
 /**
  * Tests the code manager.
@@ -33,7 +33,7 @@ require_once 'PersistentObject/tests/persistent_session/test_case.php';
  * @package PersistentObject
  * @subpackage Tests
  */
-class ezcPersistentSessionIdentityDecoratorTest extends ezcPersistentSessionTest
+abstract class ezcPersistentSessionIdentityDecoratorTest extends ezcPersistentSessionTest
 {
     protected $idMap;
 

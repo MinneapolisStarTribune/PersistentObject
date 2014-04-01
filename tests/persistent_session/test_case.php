@@ -43,7 +43,7 @@ require_once dirname( __FILE__ ) . '/../data/multi_relation_test_person.php';
  * @package PersistentObject
  * @subpackage Tests
  */
-class ezcPersistentSessionTest extends ezcTestCase
+abstract class ezcPersistentSessionTest extends ezcTestCase
 {
     protected $session = null;
     protected $hasTables = false;

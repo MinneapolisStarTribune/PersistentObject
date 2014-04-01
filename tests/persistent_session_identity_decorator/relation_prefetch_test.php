@@ -36,7 +36,7 @@ require_once dirname( __FILE__ ) . "/../data/relation_test_birthday.php";
  * @package PersistentObject
  * @subpackage Tests
  */
-class ezcPersistentSessionIdentityDecoratorRelationPrefetchTest extends ezcTestCase
+abstract class ezcPersistentSessionIdentityDecoratorRelationPrefetchTest extends ezcTestCase
 {
     protected $defManager;
 
